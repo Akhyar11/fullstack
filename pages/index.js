@@ -1,7 +1,9 @@
+import Layout from "../components/layout";
+
 export default function Home() {
   return (
-    <div className="flex justify-center w-[300px]">
+    <Layout>
       <h1>welcome</h1>
-    </div>
+    </Layout>
   );
 }
